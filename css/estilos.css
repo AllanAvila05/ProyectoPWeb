@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../imagenes/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Segoe UI', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+ul a {
+    color: white;
+}
+
+.container {
+    width: 90%;
+    max-width: 1100px;
+    background: rgba(0, 0, 0, 0.85);
+    padding: 40px;
+    margin: 50px 0;
+    border-radius: 15px;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.9);
+    text-align: center;
+}
+
+h1 {
+    font-size: 48px;
+    color: #ffffff;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-bottom: 4px solid red;
+    padding-bottom: 10px;
+}
+
+p {
+    font-size: 19px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #e0e0e0;
+}
+
+.container img {
+    margin: 25px 0;
+    transition: 0.3s;
+}
+
+.container img:hover {
+    transform: scale(1.05);
+}
+
+nav {
+    margin-top: 30px;
+}
+
+nav a {
+    display: inline-block;
+    margin: 8px;
+    padding: 12px 20px;
+    background: linear-gradient(45deg, red, darkred);
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(255, 0, 0, 0.5);
+}
+
+ol {
+    color: white;
+    margin-left: 40px;
+    font-size: 20px;
+    text-align: left;
+}
+
+ol li {
+    margin-bottom: 12px;
+}
+
+ul {
+    text-align: left;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: collapse;
+}
+
+th {
+    background: linear-gradient(45deg, red, darkred);
+    color: white;
+    padding: 15px;
+    font-size: 18px;
+}
+
+td {
+    padding: 12px;
+    background-color: rgba(255, 255, 255, 0.08);
+}
+
+table,
+th,
+td {
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+td img {
+    border-radius: 8px;
+    transition: 0.3s;
+}
+
+td img:hover {
+    transform: scale(1.1);
+}
